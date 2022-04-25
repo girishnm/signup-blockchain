@@ -82,7 +82,7 @@ App = {
       var email=$("#email").val();
       var adr=$("#adr").val();
       await App.sample.updateValues(uname,email,adr,{from:App.account})
-      window.alert("Clicked"+uname+adr+email);
+      
     },
   
   displayItems: async()=>{
